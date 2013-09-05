@@ -1,12 +1,13 @@
-Reachout
+wwwVisitLog
+-----------
+
+wwwVisitLog is an app to log all articles that I read from the internet. 
+This would include random news, tutorials etc. This is an effort to make web
+surfing more useful by writing  & storing a short summary about every decent
+sized article that I read.
+
+CREDITS:
 --------
+I followed the Node Beginner eBook(http://www.nodebeginner.org/) to set up Node
+webserver. Thanks to the author for writing this excellent book.  
 
-<about this project>
-
-TUTORIALS:
-----------
-Node.js - http://www.nodebeginner.org/
-
-TODO:
----------
-v0.1 - Basic infrastructure to store and retrieve people's name and conversation history
