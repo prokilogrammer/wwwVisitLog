@@ -9,10 +9,10 @@ sized article that I read.
 HOWTO:
 ------
 To submit a new article, make a GET request as in the following example:
-    http://localhost:8080/store?title=hi&url=acd.com&summary=sampleSummary2
+    http://www-visit-log.heroku.com/store?title=hi&url=acd.com&summary=sampleSummary2
 
 To retrieve all stored articles, simply go to the homepage
-    http://localhost:8080
+    http://www-visit-log.heroku.com/
 
 CREDITS:
 --------
