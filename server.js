@@ -17,8 +17,10 @@ function start(route, handle) {
 		route(handle, pathname, response, GETData);
 	}
 
-    // Setup the server and start listening
-	http.createServer(onRequest).listen(8080); //process.env.PORT);
+  // Setup the server and start listening
+  var port = Number(process.env.PORT || 5000);
+  console.log("Starting server at port: " + port);
+	http.createServer(onRequest).listen(port);
 }
 
 // List of functions exported by this module

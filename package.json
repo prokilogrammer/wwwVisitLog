@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/prokilogrammer/wwwVisitLog/issues"
   },
-  "homepage": "https://github.com/prokilogrammer/wwwVisitLog"
+  "homepage": "https://github.com/prokilogrammer/wwwVisitLog",
+  "dependencies": {
+    "sqlite3": "~2.2.3"
+  }
 }

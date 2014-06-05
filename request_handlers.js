@@ -36,7 +36,6 @@ function retrieve_callback(response, err, result)
     for (i in result)
     {
         var row = result[i];
-        response.write("1\n");
         response.write("ID: " + row.id + "\n");
         response.write("Title: " + row.title + "\n");
         response.write("URL: " + row.title + "\n");

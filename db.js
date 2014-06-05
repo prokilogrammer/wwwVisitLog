@@ -1,5 +1,5 @@
 var sqlite = require('sqlite3').verbose();
-var db = new sqlite.Database('reading_db');
+var db = new sqlite.Database('reading.db');
 var sql_create = "CREATE TABLE IF NOT EXISTS summary "
                     + "(id INTEGER PRIMARY KEY AUTOINCREMENT, " 
                     + "title TEXT, url TEXT, summary TEXT, "
