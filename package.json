@@ -1,0 +1,20 @@
+{
+  "name": "wwwVisitLog",
+  "version": "0.0.1",
+  "description": "App to submit short summary of web-articles that I read",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/prokilogrammer/wwwVisitLog.git"
+  },
+  "author": "prokilogrammer (Sanath Kumar Ramesh)",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/prokilogrammer/wwwVisitLog/issues"
+  },
+  "homepage": "https://github.com/prokilogrammer/wwwVisitLog"
+}
